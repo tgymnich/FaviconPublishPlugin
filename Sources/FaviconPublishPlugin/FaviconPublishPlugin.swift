@@ -1,9 +1,7 @@
 
 import Publish
-import Splash
 import Ink
 import Foundation
-import Plot
 
 public extension Plugin {
     static func addFaviconsToLinks(in modifier: String = ".wrapper") -> Self {

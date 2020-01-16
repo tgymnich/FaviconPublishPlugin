@@ -12,7 +12,7 @@ final class GoogleFaviconPublishPluginTests: XCTestCase {
         """)
         
         let expected = """
-        <p><style>a[href*=\"www.google.de\"]{background-image: url(https://www.google.com/s2/favicons?domain=www.google.de;}</style><a href=\"https://www.google.de\">google</a></p>
+        <p><style>a[href*=\"www.google.de\"]{background-image: url(https://www.google.com/s2/favicons?domain=www.google.de);}</style><a href=\"https://www.google.de\">google</a></p>
         """
 
         XCTAssertEqual(html, expected)

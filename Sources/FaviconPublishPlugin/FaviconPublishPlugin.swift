@@ -20,7 +20,7 @@ public extension Modifier {
                 let urlEnd = markdown.range(of: ")")?.lowerBound,
                 let urlHost = URL(string: String(markdown[urlStart..<urlEnd]))?.host else { return html }
                         
-            let style = #"<style>\#(modifier) a[href*="\#(urlHost)"]{background-image: url(https://www.google.com/s2/favicons?domain=\#(urlHost);}</style>"#
+            let style = #"<style>\#(modifier) a[href*="\#(urlHost)"]{background-image: url(https://www.google.com/s2/favicons?domain=\#(urlHost));}</style>"#
             return style.appending(html)
         }
     }

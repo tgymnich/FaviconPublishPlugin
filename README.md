@@ -6,7 +6,7 @@ Add Favicons to your links.
 
 Add this to your `style.css:`
 ```
-.wrapper a[href^="https"] {
+.wrapper a[href^="http"] {
   padding-left: 19px;
   background-size: 16px 16px;
   background-repeat: no-repeat;

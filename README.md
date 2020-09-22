@@ -22,7 +22,7 @@ Add this to your `style.css:`
 
 In your Package.swift add:
 ```swift
-.package(url: "https://github.com/TG908/FaviconPublishPlugin.git", from: "0.0.1")
+.package(url: "https://github.com/tgymnich/FaviconPublishPlugin.git", from: "0.0.1")
 ```
 
 # Setup
